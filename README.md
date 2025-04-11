@@ -5,7 +5,7 @@ Table of Contents:
 1. Requirements
 2. Data Augmentation
 3. Training and Testing
-4. Evaluation
+4. Evaluation  
 
 1. Requirements
 Python 3.7+
@@ -19,9 +19,11 @@ Seaborn
 tqdm
 
 Install the required packages using:
-> pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```  
 
-2. Data Augmentation
+2. Data Augmentation  
 The 2131576-augment.py script performs data augmentation on the FEVER NLI dataset. It uses various techniques:
 
 Summarization (using BART)
@@ -35,7 +37,7 @@ Run it using:
 python 2131576-augment.py
 ```
 
-3. Training and Testing
+3. Training and Testing  
 The 2131576-main.py script handles both training and testing of the NLI models. It supports:
 
 Multiple model architectures (RoBERTa-base, DeBERTa-v3-large)
@@ -57,7 +59,7 @@ Testing on original or adversarial data:
 python 2131576-main.py test --data [original/adversarial]
 ```
 
-4. Evaluation
+4. Evaluation  
 The 2131576-main.py script evaluates the model using:
 
 Accuracy
