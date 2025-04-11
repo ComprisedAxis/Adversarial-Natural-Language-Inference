@@ -1,0 +1,10 @@
+datasets
+nltk
+transformers
+torch
+matplotlib
+tqdm
+torch
+scikit-learn
+seaborn
+numpy
